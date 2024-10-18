@@ -20,5 +20,5 @@ Create a new conda environment and install the software necessary for the code t
 
 `conda env create --file d2s.yml`
 
-conda activate d2s
+`conda activate d2s`
 
