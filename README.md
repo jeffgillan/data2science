@@ -16,7 +16,9 @@ clone this repository
 
 `cd data_to_science`
 
+Create a new conda environment and install the software necessary for the code to run (d2s.py)
 
+`conda env create --file d2s.yml`
 
-
+conda activate d2s
 
