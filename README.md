@@ -18,7 +18,7 @@ clone this repository
 
 Create a new conda environment and install the software necessary for the code to run (d2s.py)
 
-`conda env create --file d2s.yml`
+`conda env create --file lettuce_detecto.yml`
 
-`conda activate d2s`
+`conda activate lettuce_detecto`
 
