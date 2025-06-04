@@ -4,15 +4,15 @@ Data to Science (D2S) is a open-source web platform for visualizing and sharing 
 
 ## Software Architecture
 
-The website code repository is [here](https://github.com/gdslab/data-to-science) D2S platform is a completely containerized web app which makes it easy to deploy with a relatively easy setup. The web app consists of 13 containers that are orchestrated using docker compose. 
+The website code repository is [here](https://github.com/gdslab/data-to-science) D2S platform is a completely containerized web app which makes it easy to deploy with a relatively easy setup. The web app consists of 13 containers that are orchestrated using docker compose. These are known as 'services' within the `docker-compose.yml` file
 
 * redis
 * titiler
-* db
+* **db** - postgis which is a spatial extension of postgresql database
 * flower
-* backend - ubuntu, python, untwine(software to convert point clouds to _copc.laz_
-* pgadmin
-* frontend
+* **backend** - ubuntu, python, conda, untwine(software to convert point clouds to _copc.laz_
+* **pgadmin** - pgAdmin 4 is a web based administration tool for the PostgreSQL database
+* **frontend** - bullseye_slim (minimalist debian linux); react
 * celery_beat
 * celery_worker
 * proxy
