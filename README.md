@@ -3,17 +3,17 @@ Data to Science (D2S) is a open-source web platform for visualizing and sharing 
 
 
 
-D2S has a QGIS plugin called _D2S Browser_. 
 
 
 
 
-## Data2Science Scripts
+<br/>
+<br/>
 
-D2S has a python library called [d2spy](https://py.d2s.org) that allows you to bring data stored in D2S directly into a python environment (e.g., jupyter notebook). 
+## Data2Science Python 
 
+D2S has a python library called [d2spy](https://py.d2s.org) that allows you to bring data stored in D2S directly into a python environment (e.g., jupyter notebook). This repo contains example juypter notebooks that use D2S as a starting point for a machine learning workflow.
 
-<br>
 <br>
 
 ### Run locally
@@ -29,3 +29,9 @@ Create a new conda environment and install the software necessary for the code t
 
 `conda activate lettuce_detecto`
 
+<br/>
+<br/>
+
+## QGIS Plugin
+
+D2S has a QGIS plugin called _D2S Browser_ 
